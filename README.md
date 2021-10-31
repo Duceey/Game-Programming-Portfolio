@@ -1,7 +1,7 @@
 # Oskar Duce's Game Programming Portfolio
- Includes games I have programmed in Unity.
+ Includes games I have programmed in Unity with C#, aswell as a University assignment written in Python.
  
- Use following links to play games:
+ Use following links to play unity games:
  
  (https://duceey.github.io/Game-Programming-Portfolio/Cube-A-Thon/Builds/Web%20Build/index.html)
  
