@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
 {
     public float speed;
     public float rotationSpeed;
+
     public Transform lastCheckpoint;
     public Transform firstCheckpoint;
 
@@ -24,7 +25,10 @@ public class Player : MonoBehaviour
 
         // Start Player
         if (rb.velocity == Vector2.zero && Input.GetKeyDown("space")) 
-        { rb.velocity = Direction() * speed; }
+        { 
+            rb.velocity = Direction() * speed;
+            transform.GetChild(0).gameObject.SetActive(false);
+        }
 
         // Reset Player
         if (Input.GetKeyDown("r")) { Reset(); }
@@ -69,6 +73,7 @@ public class Player : MonoBehaviour
     {
         rb.velocity = Vector2.zero;
         rb.position = lastCheckpoint.position;
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void SetCheckpoint(Transform checkpoint)
@@ -88,6 +93,7 @@ public class Player : MonoBehaviour
 
         rb.velocity = Vector2.zero;
         rb.position = new Vector3(playerData.position[0], playerData.position[1], playerData.position[2]);
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void ResetPlayer()

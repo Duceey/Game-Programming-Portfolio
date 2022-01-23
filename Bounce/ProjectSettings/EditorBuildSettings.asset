@@ -9,24 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 4550d7209fdb00d46a01f72b37c88950
   - enabled: 1
-    path: Assets/Scenes/Campaign.unity
+    path: Assets/Scenes/World 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 3316c78463bc522478cca289fcba7b9e
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 2eaaa15c89839784d94a899ef3710ee5
-  - enabled: 1
-    path: Assets/Scenes/Level 3.unity
-    guid: 55901480437c6c3418136cd66ba4501c
-  - enabled: 1
-    path: Assets/Scenes/Level 4.unity
-    guid: f1216fd35e3e8c44192587b386a81530
-  - enabled: 1
-    path: Assets/Scenes/Level 5.unity
-    guid: 4380360fb0e420f49b3d8362cb671663
-  - enabled: 1
-    path: Assets/Scenes/Level 6.unity
-    guid: a250353c0548ab5429990e6a27657cd0
   m_configObjects: {}
