@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         LoadPlayer();
+        Reset();
     }
 
     void Update()
